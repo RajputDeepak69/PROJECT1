@@ -1,0 +1,19 @@
+
+.loader {
+    height:100px;
+    width:100px;
+    margin: 100px 300px;
+    border:15px solid rgb(167, 188, 192);
+    border-top:15px solid rgb(43, 1, 1);
+    animation: spin 3sec infinite 0sec normal;
+    
+}
+.loader:hover {
+    transform:rotate(360deg);
+    background-color:red;
+}
+@keyframes spin{
+    100%{
+        transform:rotate(359deg);
+    }
+}
